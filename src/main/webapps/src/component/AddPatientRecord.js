@@ -94,7 +94,8 @@ const AddPatientRecord = () => {
           <Form.Label>Address</Form.Label>
           <Form.Control value={address} name="address" onChange={changeValue} type="text" placeholder="Enter Address" />
         </Form.Group>
-        
+       
+
         <Button variant="primary" type="submit">
           Submit
         </Button>
