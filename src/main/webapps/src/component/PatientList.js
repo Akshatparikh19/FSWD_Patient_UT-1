@@ -16,6 +16,7 @@ const PatientList = () => {
     .catch(error => console.log(error));
   }, []);
 
+  
 
   const handleDelete = (id) => {
     console.log(id)
