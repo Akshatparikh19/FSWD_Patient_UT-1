@@ -41,6 +41,7 @@ const PatientList = () => {
         </tr>
       </thead>
       <tbody>
+    
         {students && students.map((student) => {
           return <tr>
           <td>{student.patientId}</td>
